@@ -1,0 +1,19 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+"c390f24" = {path = "./../project2", editable = true}
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
