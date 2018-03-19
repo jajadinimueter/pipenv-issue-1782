@@ -8,6 +8,7 @@ name = "pypi"
 [packages]
 
 "c390f24" = {path = "./../project2", editable = true}
+requests = {git = "https://github.com/requests/requests.git", editable = true}
 
 
 [dev-packages]
